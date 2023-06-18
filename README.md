@@ -12,7 +12,7 @@ The system consists out of a bracket, that calmps around the spraying computer a
 The servo box contains servos to control the section switches through specially designed lever arms. The servo box is mounted on a hinge and can be swung away to regain manual control. The servo box can be kept closed through magnets or an M4 bolt
 <img src="/Pictures/ServoFront.jpg"  width="770"/>
 
-The electronics box on the back has mounting points to accomodate a 8ch servo controller, A dc controller and a 8 channel relay card (optional). The optional relay card can be replaced with a second servo controller when you need 9 sections.
+The electronics box on the back has mounting points to accomodate a 8ch servo controller, A DC buck converter and a 8 channel relay card (optional). The optional relay card can be replaced with a second servo controller when you need 9 sections.
 <img src="/Pictures/El2.jpg"  width="770"/>
 
 **_Why control the buttons mechanically and not switch section through relays?_**
