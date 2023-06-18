@@ -1,7 +1,11 @@
 # Mueler Spraydos AgOpenGPS section control
 An electromechanical approach to open source section control of Mueler/Müller Spraydos spraying computers through software as AgOpenGPS
 
-![alt text](/Pictures/Overview1.PNG)
+<p float="left">
+  <img src="/Pictures/DCBuck.PNG"  width="500"/>
+  <img src="/Pictures/DCBuck.PNG"  width="500"/>
+  <img src="/Pictures/DCBuck.PNG"  width="500"/>
+</p>
 
 **_Why control the buttons mechanically and not switch section through relays?_**
 * Motorised valves need 2 relays per section (16 in total...).
@@ -32,13 +36,13 @@ I provide some limited print service for Western europe. Contact me through gith
 
 ### Electronics
 * Servo motor MG90S (as many as needed for your sprayer) (other models might fit, did not try)
-<img src="/Pictures/Servo.PNG" alt="Your image title" width="250"/>
+<img src="/Pictures/Servo.PNG"  width="250"/>
 
 * Servo controller, i used [this one](https://nl.aliexpress.com/item/1005002120074314.html?spm=a2g0o.order_list.order_list_main.18.141d79d2i53ILI&gatewayAdapt=glo2nld) :
-<img src="/Pictures/Servocontroller.PNG" alt="Your image title" width="250"/>
+<img src="/Pictures/Servocontroller.PNG"  width="250"/>
 
 * DC buck converter XL4015 5A, mounting holes are compatible with [CC/CV models like this one](https://nl.aliexpress.com/item/1005002554895443.html?spm=a2g0o.order_list.order_list_main.39.141d79d2i53ILI&gatewayAdapt=glo2nld) :
-<img src="/Pictures/DCBuck.PNG" alt="Your image title" width="250"/>
+<img src="/Pictures/DCBuck.PNG"  width="250"/>
 
 * Wire nuts, connectors and cable protection to own needs
   * Two 16mm holes in electronics box for connrctions
