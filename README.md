@@ -2,9 +2,8 @@
 An electromechanical approach to open source section control of Mueler/Müller Spraydos spraying computers through software as AgOpenGPS
 
 <p float="left">
-  <img src="/Pictures/DCBuck.PNG"  width="500"/>
-  <img src="/Pictures/DCBuck.PNG"  width="500"/>
-  <img src="/Pictures/DCBuck.PNG"  width="500"/>
+  <img src="/Pictures/Real1.PNG"  height="500"/>
+  <img src="/Pictures/Side1.PNG"  height="500"/>
 </p>
 
 **_Why control the buttons mechanically and not switch section through relays?_**
