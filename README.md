@@ -4,6 +4,13 @@ An electromechanical approach to open source section control of Mueler/Müller S
 ![alt text](/Pictures/Overview1.PNG)
 
 ## Needed hardware
+### Printed parts
+* [Servo box](/Printed_parts/ServoBox)
+* [Servo box lid](/Printed_parts/ServoBoxlid)
+* [Front bracket](/Printed_parts/FrontBracket)
+* [Electronics box](/Printed_parts/ElBox)
+* [Electronics box lid](/Printed_parts/ElBoxLid)
+
 ### Montage parts
 * Wood screw D3 l15 X6
 * Bolt M4 l15 X4
@@ -11,7 +18,7 @@ An electromechanical approach to open source section control of Mueler/Müller S
 * Bolt M5 l45 X1
 * Nut M5 X1
 
-# Electronics
+### Electronics
 * Servo motor MG90S (as many as needed for your sprayer) (other models might fit, did not try)
 <img src="/Pictures/Servo.PNG" alt="Your image title" width="250"/>
 
