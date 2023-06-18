@@ -1,7 +1,14 @@
 # Mueler Spraydos AgOpenGPS section control
 An electromechanical approach to open source section control of Mueler/Müller Spraydos spraying computers through software as AgOpenGPS
-
 ![alt text](/Pictures/Overview1.PNG)
+
+**_Why control the buttons mechanically and not switch section through relays?_**
+* Motorised valves need 2 relays per section (16 in total...).
+* You cannot put ralays in parallel to the buttons, you will create a short.
+* To keep the switches as manual backup they cannot be replaced by relays.
+* Breaking the lines going to the the valves and changeing the state there with relays could work. But the rate controller will not work anymore since it does not know the real state of the sections. (You could compensate this by changeing the speed signal however)
+* To keep the mod as a bolt-on addon to keep the controller original for resale when the time comes.
+
 
 ## Needed hardware
 ### Printed parts
@@ -28,4 +35,6 @@ I provide some limited print service for Western europe. Contact me through gith
 
 * DC buck converter XL4015 5A, mounting holes are compatible with [CC/CV models like this one](https://nl.aliexpress.com/item/1005002554895443.html?spm=a2g0o.order_list.order_list_main.39.141d79d2i53ILI&gatewayAdapt=glo2nld) :
 <img src="/Pictures/DCBuck.PNG" alt="Your image title" width="250"/>
+
+## Wireing and control
 
