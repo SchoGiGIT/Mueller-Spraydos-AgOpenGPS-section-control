@@ -13,7 +13,7 @@ The servo box contains servos to control the section switches through specially 
 <img src="/Pictures/ServoFront.jpg"  width="770"/>
 
 The electronics box on the back has mounting points to accomodate a 8ch servo controller, A dc controller and a 8 channel relay card (optional). The optional relay card can be replaced with a second servo controller when you need 9 sections.
-<img src="/Pictures/El1.jpg"  width="770"/>
+<img src="/Pictures/El2.jpg"  width="770"/>
 
 **_Why control the buttons mechanically and not switch section through relays?_**
 * Motorised valves need 2 relays per section (18 in total...).
