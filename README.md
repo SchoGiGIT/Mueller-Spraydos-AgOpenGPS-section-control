@@ -26,6 +26,9 @@ I provide some limited print service for Western europe. Contact me through gith
 * Nut M4 X4
 * Bolt M5 l45 X1
 * Nut M5 X1
+* Closing latch (one of the two)
+  * Magnet D5 L5 X2 (push in with solder iron)
+  * Bolt M4 l8 + Nut M4
 
 ### Electronics
 * Servo motor MG90S (as many as needed for your sprayer) (other models might fit, did not try)
@@ -36,6 +39,10 @@ I provide some limited print service for Western europe. Contact me through gith
 
 * DC buck converter XL4015 5A, mounting holes are compatible with [CC/CV models like this one](https://nl.aliexpress.com/item/1005002554895443.html?spm=a2g0o.order_list.order_list_main.39.141d79d2i53ILI&gatewayAdapt=glo2nld) :
 <img src="/Pictures/DCBuck.PNG" alt="Your image title" width="250"/>
+
+* Wire nuts, connectors and cable protection to own needs
+  * Two 16mm holes in electronics box for connrctions
+  * Threaded holes in electronics and servo box for armoured protection hose
 
 ## Wireing and control
 
