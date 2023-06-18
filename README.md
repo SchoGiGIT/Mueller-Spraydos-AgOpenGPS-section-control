@@ -5,6 +5,7 @@ An electromechanical approach to open source section control of Mueler/Müller S
 
 ## Needed hardware
 ### Printed parts
+I provide some limited print service for Western europe. Contact me through github or on [this thread](https://discourse.agopengps.com/t/printing-service-for-aog-community-western-europe/12823)
 * [Servo box](/Printed_parts/ServoBox)
 * [Servo box lid](/Printed_parts/ServoBoxlid)
 * [Front bracket](/Printed_parts/FrontBracket)
