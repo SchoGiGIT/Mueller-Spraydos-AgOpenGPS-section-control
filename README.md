@@ -44,5 +44,5 @@ I provide some limited print service for Western europe. Contact me through gith
   * Two 16mm holes in electronics box for connrctions
   * Threaded holes in electronics and servo box for armoured protection hose
 
-## Wireing and control
+## Wiring and control
 
