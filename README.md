@@ -1,6 +1,6 @@
 # Mueler Spraydos AgOpenGPS section control
 An electromechanical approach to open source section control of Mueler/Müller Spraydos spraying computers through software as AgOpenGPS. 
-This project provides the mechanical design for a non-intrusive addon mod to automatically control the sections on a spraydos computer thourgh a gps system. All needed parts and other information are discribed bellow
+This project provides the mechanical design for a non-intrusive addon mod to automatically control the sections on a spraydos computer thourgh a gps system. All needed parts and other information are discribed bellow.
 
 The system consists out of a bracket, that calmps around the spraying computer and doubles as electronics box, and a servo box on a hinge. The main section switch and all other buttons remain freely accesible.
 
@@ -12,8 +12,10 @@ The system consists out of a bracket, that calmps around the spraying computer a
 The servo box contains servos to control the section switches through specially designed lever arms. The servo box is mounted on a hinge and can be swung away to regain manual control. The servo box can be kept closed through magnets or an M4 bolt
 <img src="/Pictures/ServoFront.jpg"  width="770"/>
 
-The electronics box on the back has mounting points to accomodate a 8ch servo controller, A DC buck converter and a 8 channel relay card (optional). The optional relay card can be replaced with a second servo controller when you need 9 sections.
+The electronics box on the back has mounting points to accomodate a 8ch servo controller, A DC buck converter and a 8 channel relay card (optional). The optional relay card can be replaced with a second servo controller when you need 9 sections (mounting holes are there in the new models). Two 16mm holes for input power and section signals and a threaded hole for a sleeve to the Servo box are foreseen.
 <img src="/Pictures/El2.jpg"  width="770"/>
+
+<img src="/Pictures/El_box_mount_points.PNG"  width="770"/>
 
 **_Why control the buttons mechanically and not switch section through relays?_**
 * Motorised valves need 2 relays per section (18 in total...).
@@ -38,15 +40,17 @@ I provide some limited print service for Western europe. Contact me through gith
 * [Servo arm](/Printed_parts/ServoArm)
 
 ### Montage parts
-* Wood screw D3 l15 X14
-* Bolt M4 l15 X4
-* Nut M4 X4
-* Bolt M5 l45 X1
-* Nut M5 X1
+* Wood screw D3 l15 X14 (for al the lids)
+* Bolt M4 l15 X4 (for mounting the bracket to the electronics box)
+* Nut M4 X4 (for mounting the bracket to the electronics box)
+* Bolt M5 l45 X1 (Serves as hinge bolt)
+* Nut M5 X1 (Serves as hinge bolt)
 * Hot melt nut M3 X12
 * Closing latch (one of the two)
   * Magnet D5 L5 X2 (push in with solder iron)
   * Bolt M4 l8 + Nut M4
+* EPDM roofing sheet (+-1mm thick)
+  * Glue a big patch or multiple smaller ones on the back of the electronics box. This will provide extra mounting friction and adapt better to the uneven surface of the spraydos controller  
 
 ### Electronics
 These electronics only work till 8 Sections for more sections you will need more servo controllers or a different type that can accomodate 9 servos
@@ -59,9 +63,28 @@ These electronics only work till 8 Sections for more sections you will need more
 * DC buck converter XL4015 5A, mounting holes are compatible with [CC/CV models like this one](https://nl.aliexpress.com/item/1005002554895443.html?spm=a2g0o.order_list.order_list_main.39.141d79d2i53ILI&gatewayAdapt=glo2nld) :
 <img src="/Pictures/DCBuck.PNG"  width="250"/>
 
+* Optional 8 way relay module, mounting holes are compatible with [this one](https://nl.aliexpress.com/item/1005002867727977.html?spm=a2g0o.order_list.order_list_main.20.16ab79d2H6eU5A&gatewayAdapt=glo2nld) :
+<img src="/Pictures/Relaymod.PNG"  width="250"/>
+
 * Wire nuts, connectors and cable protection to own needs
   * Two 16mm holes in electronics box for connrctions
-  * Threaded holes in electronics and servo box for armoured protection hose
+  * Threaded holes in electronics and servo box for flexible armoured cable sleeves (Will probably cahnge this in the future)
 
 ## Wiring and control
+The servo control needs to be "dumbed down" to a bi-stable state that can be commanded by a section relay card. 
+These connections can be swithed around based on what kind of section reaction you want to different steering and logic conditions> 
 
+### Simple and works but you can create a short circuit way!
+Use the potentiometer from the servo controller to set one position of the servo arm and bridge the position signal pad (central pin of the potentiometer) to VCC or GND of the servo card with a relay to send it to the second postion. Connect these wire to the mount points of the potentiometers on the back of the servo controller card. You only need number of sections+1 cables to control this board.
+
+_Make shure NOT to turn the potentionmers to their full left or right position when relay bridge is closed._
+
+<img src="/Pictures/Pot_bridge.PNG"  width="500"/>
+
+### Safer way but more work
+Desolder all the potentiometers from the servo controller board. Connect the common ports of your section relay board to the position signal pads (central pin) of the servo controller board. Connect the VCC and GND of the servo board to a seperate pot (reuse on you just took of). Connect the GND and signal of the seperate pot to the NC?NO ports of your section relay board. You only need number of sections+2 cables to control this board.
+
+<img src="/Pictures/Pot_seperate.PNG"  width="500"/>
+
+### Better way? use RS485 based servo controller?
+TODO
