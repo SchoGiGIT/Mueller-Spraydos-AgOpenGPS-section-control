@@ -33,7 +33,7 @@ I provide some limited print service for Western europe. Contact me through gith
 
 
 * [Servo box](/Printed_parts/ServoBox.step)
-* [Servo box lid](/Printed_parts/ServoBoxlid.step)
+* [Servo box lid](/Printed_parts/ServoBoxLid.step)
 * Front bracket
   * [Normal nut](/Printed_parts/FrontBracket.step)
   * [Hotmelt nut](/Printed_parts/FrontBracketHot.step)
