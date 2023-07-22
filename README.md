@@ -32,14 +32,14 @@ I provide some limited print service for Western europe. Contact me through gith
 <img src="/Pictures/Overview1.PNG"  width="400"/>
 
 
-* [Servo box](/Printed_parts/ServoBox)
-* [Servo box lid](/Printed_parts/ServoBoxlid)
+* [Servo box](/Printed_parts/ServoBox.step)
+* [Servo box lid](/Printed_parts/ServoBoxlid.step)
 * Front bracket
-  * [Normal nut](/Printed_parts/FrontBracket)
-  * [Hotmelt nut](/Printed_parts/FrontBracketHot)
-* [Electronics box](/Printed_parts/ElBox)
-* [Electronics box lid](/Printed_parts/ElBoxLid)
-* [Servo arm](/Printed_parts/ServoArm)
+  * [Normal nut](/Printed_parts/FrontBracket.step)
+  * [Hotmelt nut](/Printed_parts/FrontBracketHot.step)
+* [Electronics box](/Printed_parts/ElBox.step)
+* [Electronics box lid](/Printed_parts/ElBoxLid.step)
+* [Servo arm](/Printed_parts/ServoArm.step)
 
 ### Montage parts
 * Wood screw D3 l15 X14 (for al the lids)
