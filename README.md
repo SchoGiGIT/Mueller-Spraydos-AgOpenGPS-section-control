@@ -34,7 +34,9 @@ I provide some limited print service for Western europe. Contact me through gith
 
 * [Servo box](/Printed_parts/ServoBox)
 * [Servo box lid](/Printed_parts/ServoBoxlid)
-* [Front bracket](/Printed_parts/FrontBracket)
+* Front bracket
+  * [Normal nut](/Printed_parts/FrontBracket)
+  * [Hotmelt nut](/Printed_parts/FrontBracketHot)
 * [Electronics box](/Printed_parts/ElBox)
 * [Electronics box lid](/Printed_parts/ElBoxLid)
 * [Servo arm](/Printed_parts/ServoArm)
@@ -42,7 +44,9 @@ I provide some limited print service for Western europe. Contact me through gith
 ### Montage parts
 * Wood screw D3 l15 X14 (for al the lids)
 * Bolt M4 l15 X4 (for mounting the bracket to the electronics box)
-* Nut M4 X4 (for mounting the bracket to the electronics box)
+* For mounting the bracket to the electronics box (one of the two)
+  * Nut M4 X4
+  * Hotmelt nut M4 X4
 * Bolt M5 l45 X1 (Serves as hinge bolt)
 * Nut M5 X1 (Serves as hinge bolt)
 * Hot melt nut M3 X12
